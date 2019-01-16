@@ -280,7 +280,11 @@ header nav li:last-child{
 
 @media (max-width: 800px){
 
-	.destinations .grid li{
+	.destinations .grid li.small{
+		flex-basis: 100%;
+		padding: 20px;
+	}
+	.destinations .grid li.large{
 		flex-basis: 100%;
 		padding: 20px;
 	}
